@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.splash-screen {
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    transition: height 10000ms ease-out, opacity 450ms ease;
+    z-index: 10000;
+    background-color: white;
+}
+.splash-screen.u-hidden {
+    display: none;
+}
+.splash-screen-logo {
+    max-width: 200px;
+    max-height: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 10vh; /* Pushes container bottom 10% up, centering logo at 45% of the way down */
+    left: 0;
+    margin: auto;
+    background: center no-repeat url("https://res.cloudinary.com/grubhub-assets/image/upload/v1626378102/Citrus-assets/GH%20Branded/Web%20%28Umami%29/Logos/Top%20Navigation/logo-full-primary.svg");
+    background-size: contain;
+}
+.splash-screen-dots {
+    color: #FF8000;
+    position: absolute;
+    /* Aligns top of dots container with center of screen */
+    top: 50vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 28px;
+}

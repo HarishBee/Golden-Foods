@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap\css\bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+     
+</head>
+<body>
+    
+        
+    <div class="cl">
+        
+     <div class="left-screen">
+      
+      <h1 class="quates">People who love to eat <br>are always best People. <br><br><br>
+        The   Best   Food <br>Delivery   App
+        
+      <img style="opacity: 0.7;" src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\black-and-gold-logo-8.png' %}"alt="logo"></h1>
+
+       <div><img class="logo"  src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\Editable-Photoshop-Food-Logo-Design-PNG-Transparent-1536x1536.png'  %}" alt="dog">
+       </div>
+    </div>
+    <div class="img">
+    <img  src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\11zon_cropped.png'  %}" alt="dog">
+      
+    </div>
+    
+    <div class="right-screen">
+      <div class="in">sign in</div>
+      <div class="mail"><form class="mail" action="emailverify"><label for="email">EmailAddress</label><br><input style="width: 300px;" placeholder="EmailAddress" type="text" name="email"  id="email" ><br><br>
+        <label for="psd">Password</label><br><input style="width: 300px;" type="password" placeholder="password" name="password" id="password" ><br></form></div><br>
+        <div class="remember">
+          <input  type="checkbox" for="rememberme" id="rememberme" >
+        <label for="rememberme">Remember Me</label> 
+        </div>
+      <form action="verifypsd">
+      <button class="login" type="submit">log in</button></form>
+      <a class="lp" href="{% url 'lostpsd' %}">forget password?</a>
+      <div class="agree">By clicking on "Log in" you agree to</div><br>
+      <a class="terms" href="{% url 'terms' %}">Terms of Service </a> 
+      <a class="privacy" href="{% url 'privacy' %}">Privacy Policy </a>
+      <form action="register"><button class="register" type="submit">Register</button></form>
+      </div>
+</body>
+</html>

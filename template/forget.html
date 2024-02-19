@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css\password.css' %}">
+</head>
+<body>
+    <div class="forget" >
+        <img class="forg" src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\black-and-gold-logo-8.png' %} " alt="fogimg">
+   <form class="forgform" action="" method="POST" >
+    {% csrf_token %}
+    {{ fg.as_p }}
+    <button type="submit">submit</button>
+   </form> 
+    </div>
+</body>
+</html>

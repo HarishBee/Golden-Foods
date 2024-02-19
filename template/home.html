@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%  static 'bootstrap\css\bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css\home.css' %}">
+    <script src="{% static 'js/home.js' %}"></script>
+</head>
+<body style="width: 100%;">
+    <div class="nav">
+        
+        <img  style="width:40px ;"  src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\Editabl.png' %}" alt="no">
+        <img  style="width: 180px;" src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\Untitled.png' %}" alt="no">
+           
+         <input id="search" type="search" placeholder="search.." >
+        <nav class="bor">
+        <a  id="home" href="home">Home</a>
+        <a  id="home" href="service">Service</a>
+        <a  id="home" href="package">Package</a>
+        <a id="home" href="about">About Us</a>
+        <a id="home" href="contact">Contact Us</a>
+        </nav>
+
+        
+            
+       
+    </div>
+        <section class="menu">
+            <div class="menu-item">
+                <img src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\pizza.jpg' %}" alt="Pizza">
+                <h2>Pizza</h2>
+                <p>Delicious pizza options for you to choose from.</p>
+                <button>Add to Cart</button> <br>
+            </div>
+    
+            <div class="menu-item">
+                <img src="{% static 'images/C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\burger.jpg' %}" alt="Burger">
+                <h2>Burger</h2>
+                <p>Classic and gourmet burgers to satisfy your cravings.</p>
+                <button>Add to Cart</button> <br>
+            </div>
+    
+            <div class="menu-item">
+                <img src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\biryani.jpg' %}" alt="Pizza">
+                <h2>Biryani</h2>
+                <p>Delicious Biryani options for you to choose from.</p>
+                <button>Add to Cart</button> <br>
+            </div>
+            <div class="menu-item">
+                <img style="width: 300px;" src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\cake.jpg' %}" alt="Pizza">
+                <h2>Cake</h2>
+                <p>Delicious Cake options for you to choose from.</p>
+                <button>Add to Cart</button><br>
+            </div>
+            <div class="menu-item">
+                <img src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\rolls.jpg' %}" alt="Pizza">
+                <h2>Rolls</h2>
+                <p>Delicious rolls  options for you to choose from.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\ice.jpg' %}" alt="Pizza">
+                <h2>Ice Cream</h2>
+                <p>Delicious Ice Cream options for you to choose from.</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    
+        <section class="cart">
+            <h2>Shopping Cart</h2>
+            <ul>
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <button>Checkout</button>
+        </section>
+    
+        <footer>
+            <img  style="width:40px ;display: inline  ;"  src="{% static 'image\C:\Users\Harish Babu G\OneDrive\Desktop\mypro\food\static\img\Editabl.png' %}" alt="no">
+            <p>&copy; 2024 Food Delivery App</p>
+        </footer>
+
+</body>
+</html>

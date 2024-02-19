@@ -1,0 +1,157 @@
+.cl{
+   
+    display: flex;
+    height: 100vh;
+    position: relative;
+   
+}
+.left-screen,.right-screen{
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    width: 120px;
+    position:absolute;
+    top: 0;
+    left: 50px;
+    opacity: 0.7;
+}
+
+
+ .left-screen{
+    background-color: black;
+    z-index: 1; 
+ }
+
+.right-screen{
+    background-color: rgb(204, 165, 11);
+    z-index: 0; 
+ }
+.img{
+    position: absolute;
+   top: 34%;
+    left:50%;
+    right: inherit;
+    transform: translateX(-50%);
+    z-index: 2;
+  
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 230px;
+    display: block;
+    
+
+} 
+.in{
+    
+   position: absolute;
+    top: 80px;
+    right: 310px;
+    border-radius: 5px;
+    color: rgb(24, 23, 15);
+   font-size: 50px;
+    
+}
+.register:hover,.login:hover{
+    background-color: rgb(168, 164, 131);
+}
+.register{
+    background-color: rgb(20, 20, 17);
+    position: absolute;
+    bottom: 290px;
+    right:  245px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: rgb(204, 156, 14);
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 23px;
+}
+.mail{
+    position: absolute;
+    top: 190px;
+    right: 310px;
+    border-radius: 5px;
+    color: rgb(24, 23, 15);
+   font-size: 19px;
+
+}
+.remember{
+    position: absolute;
+   display: flex;
+    right: 373px;
+    color: rgb(22, 21, 18);
+   font-size: 19px;
+   gap: 10px;
+}
+.login{
+    background-color: rgb(25, 24, 21);
+    position: absolute;
+    bottom: 290px;
+    right:435px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: rgb(203, 165, 11);
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 23px;
+}
+.lp{
+    position: absolute;
+    
+    right: 360px;
+    bottom:230px;
+    color : rgb(24, 23, 15);
+   font-size : 19px;
+   text-decoration: none;
+}
+.agree{
+    position: absolute;
+    
+    right: 190px;
+    bottom:180px;
+    color : rgb(24, 23, 15);
+   font-size : 19px;
+   text-decoration: none;
+
+}
+.terms{
+    position: absolute;
+    
+    right: 340px;
+    bottom:150px;
+    color : rgb(24, 23, 15);
+   font-size : 19px;
+   
+}
+.privacy{
+    position: absolute;
+    
+    right: 220px;
+    bottom:150px;
+    color : rgb(24, 23, 15);
+   font-size : 19px;
+}
+.quates{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 200px;
+    left: 150px;
+    color:rgb(203, 165, 11);
+
+}
+
+.mail{
+    top: 100px;
+    right: 110px;}

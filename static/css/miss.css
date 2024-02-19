@@ -1,0 +1,31 @@
+body,.err{
+    position: relative;
+    height: 100%;
+}
+.errorpage{
+    display: block;
+    background-color: red;
+   height: 50px;
+   min-width: 200px;
+   font-size: 40px;
+   align-items: center;
+}
+.reasons{
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: block;
+}
+.notfound{
+    height: 600px;
+    background-color: #ffd963;
+    color: #000;
+    align-items: center;
+    align-content: center;
+    padding: 35px 15px;
+    justify-content: center;
+}
+.s-footer{
+    bottom:1000px;
+}
